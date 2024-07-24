@@ -5,3 +5,10 @@ export interface User {
     interests: string[];
     avatar: string;
 }
+
+export interface Feed {
+    id: string;
+    title: string;
+    description: string;
+    category: string;
+}
