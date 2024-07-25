@@ -12,3 +12,11 @@ export interface Feed {
     description: string;
     category: string;
 }
+
+export interface UserDetail {
+    id: string;
+    name: string;
+    bio: string;
+    twitter: string;
+    homepage: string;
+}
